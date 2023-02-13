@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+}
+
+.label{
+    margin: 10px;
+    padding: 5px;
+}
+
+#form{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#ghost{
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    top: 100%;
+    left: 280px;
+    background: lightgreen;
+    display: none;
+}
